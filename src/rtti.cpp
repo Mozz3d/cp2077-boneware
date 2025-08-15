@@ -25,6 +25,7 @@
 #include "App/Depot/ResourceToken.hpp"
 #include "App/Device/ResetSecuritySystemNetwork.hpp"
 #include "App/Engine/EngineTimeEx.hpp"
+#include "App/Entity/AnimatedComponentEx.hpp"
 #include "App/Entity/ComponentEx.hpp"
 #include "App/Entity/EntityBuilderWrapper.hpp"
 #include "App/Entity/EntityEx.hpp"

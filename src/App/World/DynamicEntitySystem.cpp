@@ -745,7 +745,7 @@ void App::DynamicEntitySystem::ProcessListeners(Red::EntityID aEntityID, App::Dy
 {
     auto tags = GetTags(aEntityID);
 
-    if (tags.size)
+    if (!tags.Empty())
     {
         ProcessListeners(aEntityID, aType, tags);
     }

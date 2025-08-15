@@ -75,6 +75,8 @@ constexpr uint32_t JobHandle_Wait = 1576079097;
 
 constexpr uint32_t Localization_LoadOnScreens = 3550098299;
 
+constexpr uint32_t MetaRigReference_Release = 525864448;
+
 constexpr uint32_t MeshAppearance_LoadMaterialSetupAsync = 1419388740;
 constexpr uint32_t MeshAppearance_ReleaseReference = 1679234269;
 

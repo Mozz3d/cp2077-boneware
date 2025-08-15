@@ -58,7 +58,7 @@ struct EntityTarget : CallbackSystemTarget
                     if (definitionName && definitionName != builder->appearance.definition->name)
                         return false;
                 }
-                else if (builder->appearances.size != 0)
+                else if (!builder->appearances.Empty())
                 {
                     auto match = false;
 

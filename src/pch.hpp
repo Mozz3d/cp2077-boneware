@@ -29,6 +29,7 @@
 #include <RED4ext/ResourceLoader.hpp>
 #include <RED4ext/SystemUpdate.hpp>
 
+#include <RED4ext/Scripting/Natives/animAnimatedObject.hpp>
 #include <RED4ext/Scripting/Natives/GameTime.hpp>
 #include <RED4ext/Scripting/Natives/Generated/CMaterialInstance.hpp>
 #include <RED4ext/Scripting/Natives/Generated/CMesh.hpp>
@@ -46,6 +47,7 @@
 #include <RED4ext/Scripting/Natives/Generated/appearance/AppearanceResource.hpp>
 #include <RED4ext/Scripting/Natives/Generated/community/CommunityTemplateData.hpp>
 #include <RED4ext/Scripting/Natives/Generated/community/SpawnEntry.hpp>
+#include <RED4ext/Scripting/Natives/Generated/ent/AnimatedComponent.hpp>
 #include <RED4ext/Scripting/Natives/Generated/ent/ComponentsStorage.hpp>
 #include <RED4ext/Scripting/Natives/Generated/ent/Entity.hpp>
 #include <RED4ext/Scripting/Natives/Generated/ent/EntityID.hpp>
@@ -204,6 +206,7 @@
 #include <RED4ext/Scripting/Natives/Generated/work/WorkspotResource.hpp>
 #include <RED4ext/Scripting/Natives/Generated/work/WorkspotSystem.hpp>
 #include <RED4ext/Scripting/Natives/Generated/work/WorkspotTree.hpp>
+#include <RED4ext/Scripting/Natives/Generated/world/AnimationSystem.hpp>
 #include <RED4ext/Scripting/Natives/Generated/world/CommunityRegistryItem.hpp>
 #include <RED4ext/Scripting/Natives/Generated/world/EnvironmentAreaParameters.hpp>
 #include <RED4ext/Scripting/Natives/Generated/world/EnvironmentDefinition.hpp>

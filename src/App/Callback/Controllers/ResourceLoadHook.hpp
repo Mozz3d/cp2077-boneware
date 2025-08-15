@@ -41,7 +41,7 @@ protected:
 
     inline static void OnDependenciesReady(Red::ResourceSerializer* aSerializer)
     {
-        if (aSerializer->serializables.size > 0)
+        if (!aSerializer->serializables.Empty())
         {
             for (const auto& serializable : aSerializer->serializables)
             {

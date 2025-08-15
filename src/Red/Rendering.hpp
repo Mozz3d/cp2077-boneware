@@ -1,12 +1,14 @@
 #pragma once
 
+#include <RED4ext/Rendering/RenderProxy.hpp>
+
 namespace Red
 {
 struct RenderData
 {
 };
 
-using RenderDataPtr = RenderData*;
+using RenderDataPtr = TRenderPtr<>;
 
 struct RenderProxy
 {
